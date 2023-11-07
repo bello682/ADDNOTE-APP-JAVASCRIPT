@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ADD NOTE</title>
+		<link rel="stylesheet" href="addnote.css" />
+	</head>
+	<body>
+		<main>
+			<div class="overlay" id="overlay">
+				<div class="modal">
+					<textarea name="note" id="note" cols="30" rows="10"></textarea>
+
+					<p id="error_msg"></p>
+
+					<button id="add">Add Note</button>
+					<button id="close">Close</button>
+				</div>
+			</div>
+
+			<div class="container">
+				<header>
+					<h1>Notes</h1>
+					<button id="plus_btn">+</button>
+				</header>
+				<div class="cards_container" id="cards_container">
+					<!-- <div class="cards" id="cards">
+					<p class="main_text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt eos in porro amet magni temporibus.
+					</p>
+
+					<p class="date">
+                        5/162023
+					</p>
+				</div> -->
+				</div>
+			</div>
+		</main>
+
+		<script src="addnote.js"></script>
+	</body>
+</html>
